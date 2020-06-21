@@ -1,0 +1,31 @@
+{
+  "name": "plain-js-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chroda/plain-js-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chroda/plain-js-jest/issues"
+  },
+  "homepage": "https://github.com/chroda/plain-js-jest#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "prettier": "2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
